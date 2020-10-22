@@ -180,10 +180,29 @@ p {
     margin-bottom: 10px;
 }
 
-/* Footer */
+/* About Info */
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+
 #main-footer {
     text-align: center;
     background: #444; 
     color: #fff;
     padding: 20px;
-}
+} 
